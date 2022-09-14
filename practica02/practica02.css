@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sp2{
+    color: red;
+}
+
+#sp1{
+    /* margin: 10px;
+    padding: 100px; */
+    color: black;
+}
+p span{
+    color: blueviolet;
+}
+.fuente{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span::after{
+    content: '\A''\A'; white-space: pre;
+}
+p {
+    text-align: center;
+    color: red;
+  }
+
+  /* unvisited link */
+a:link {
+    color: gold;
+  }
+
+  p.center {
+    text-align: center;
+    color: red;
+  }
