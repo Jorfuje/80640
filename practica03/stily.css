@@ -1,0 +1,39 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.superpadre{
+    display: flex;
+}
+.Header{
+    background-color: gray;
+    height: 26vh;
+   
+
+}
+.Menu{
+    background-color: blue;
+    height: 7vh;
+
+}
+.Contenido{
+    background-color: brown;
+    height: 60vh;
+    width: 70vw;
+    display: inline-block;
+
+}
+.Publicidad{
+    background-color: lightcyan;
+    height: 60vh;
+    width: 29.5vw;
+    display: inline-block;
+
+}
+.Pie{
+    background-color: blue;
+    height: 7vh;
+}
+.S
