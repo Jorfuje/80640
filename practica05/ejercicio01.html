@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        function cambiarColor (color) {
+        function cambiarColor1(color) {
             console.log("el color recibido es: "+ color)
             var e = document.getElementById("texto1");
             
@@ -32,10 +32,27 @@
                 // c[index].style.color = color
                 // 
             // }
-            var array = [].slice.call(c)
-           array.forEach(element => {
-                console.log(element)
-           });
+
+            // let i=0
+            // for(let x in c){
+                // if (i<c.length) {
+                    // c[x].style.color="blue"
+                    // i++
+                // }
+                
+            // }
+
+
+            for(const x in c){
+                if(Object.hasOwnProperty.call(c, x)){
+                    c[x].style.color = "red"
+                }
+            }
+
+            // var array = [].slice.call(c)
+        //    array.forEach(element => {
+                // console.log(element)
+        //    });
         }
     </script>
 </head>
